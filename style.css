@@ -1,4 +1,15 @@
-#header {
+body {
     background-color: #F2F2F2;
+    font-family: 'Montserrat', sans-serif!important;
+}
+#header {
     color: #6C733D;
+}
+
+a {
+    color: #6C8C3D!important;
+}
+
+a:visited {
+    color: #D8D5A2!important;
 }
