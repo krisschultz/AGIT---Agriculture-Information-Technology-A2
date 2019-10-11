@@ -16,3 +16,8 @@ a {
 a:visited {
     color: #D8D5A2!important;
 }
+
+h3.head {
+    font-weight: 800;
+    text-decoration: underline;
+}
