@@ -6,6 +6,9 @@ body {
     color: #6C733D;
 }
 
+#block {
+    text-align: justify;
+}
 a {
     color: #6C8C3D!important;
 }
