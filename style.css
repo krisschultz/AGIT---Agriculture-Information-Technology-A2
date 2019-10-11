@@ -6,8 +6,9 @@ body {
     color: #6C733D;
 }
 
-#block {
-    text-justify: auto;
+p.block {
+    text-align: justify;
+    text-justify: auto!important;
 }
 a {
     color: #6C8C3D!important;
