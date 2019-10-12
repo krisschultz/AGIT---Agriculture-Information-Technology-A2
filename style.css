@@ -25,3 +25,11 @@ a.active {
     font-weight: 800;
     text-decoration: underline;
 }
+
+.btn-link {
+    color: black!important;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
