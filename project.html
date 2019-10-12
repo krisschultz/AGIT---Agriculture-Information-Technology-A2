@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AGIT - Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--nav to be replaced when everything is finished-->
+
+    <div id="main_nav" class="container-fluid bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Team Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="it_work_technologies.html">IT Work & Technologies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="project.html">Team Project</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!--header-->
+    <div id="header" class="container align-items-center p-4">
+        <div class="row p-3 justify-content-center">
+            <div class="col col-4 col-md-2 col-lg-1">
+                <img src="img/logo.png" width="100%">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col col-10 text-center">
+                <h2>
+                    AGIT - IT solutions for modern agriculture
+                </h2>
+                <h5>
+                    RMIT COSC2196/CPT110, Assignment II, A2 Group #6
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <div id="project" class="container">
+        <div class="row justify-content-center">
+            <div class="col">
+                <h3 class="head text-center pb-3">
+                    Our Project
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-12">
+                <h5>
+                    Overview
+                </h5>
+                <p>
+                    Many traditional farmers around the world work in a way in which their parents and grandparents had
+                    worked. With a rising demand of food and more often occurring extreme weather events (for instance
+                    the
+                    drought in Australia at the moment), the traditional way may not always be the optimal way. Primary
+                    producers, however, often rely on their experience and because of that, the potential growths of
+                    animals
+                    or the amount of applied fertilizer or seed, for instance, may not be ideal. Furthermore,
+                    agricultural
+                    equipment, even most recent models, often rely on the farmer monitoring physically, the convenience
+                    and
+                    productivity can be increased by sensors and actuators.
+                </p>
+                <p>
+                    At AGIT we will use modern information technology to help farmers to improve production, efficiency
+                    and
+                    profits while reduce the strain on the environment. Our bigger picture is to develop and produce a
+                    network of sensors, actuators and user interfaces, connected to a cloud-based software (“the
+                    brain”), to
+                    address all of the issues given above. Having said that, our focus for this project will lie on a
+                    feed
+                    demand calculator for cattle, accessible via web browsers, smartphones and user interface displays.
+                </p>
+                <p>
+                    Australia is one of the largest beef exporters in the world (GLOBAL SNAPSHOT l BEEF, 2019) and large
+                    parts of Australia are in a drought. Not all livestock can be saved. To revive an operation after a
+                    catastrophic weather event like the current drought, a core of the stock needs to be saved and fed
+                    through the event. Our feed calculator will help with that.
+                </p>
+                <h5>
+                    The project: The Feed Calculator
+                </h5>
+                <p>
+                    Our goal is to develop an intelligent platform which uses state of the art technology, meticulous
+                    research and experience to provide beef farmers with a tool which allows to calculate feed
+                    quantities
+                    for a set target weight gain. In the following paragraphs we will discuss some background-knowledge,
+                    technologies and skills which are required to realize this project.
+                </p>
+                <p>
+                    The growths of animals, specifically cattle, highly depends on several factors. Age, nutritional
+                    intake
+                    (that includes the nutritional values of different feeds), growths stage, health- and weather
+                    condition,
+                    accessibility of natural feed resources, gender, breed and pregnancy are only some of them. A young
+                    animal, which is likely to be in a growth phase, gains weight easier than an older animal which has
+                    nearly grown out, given the ideal nutrition. A pregnant or even lactating animal is in higher
+                    energy,
+                    more specific protein, demand than a dry cow. Animals in cold weather need more hay (not grain –
+                    grain
+                    would be contra-productive and lead to a waste of resources) to produce warmth while animals in
+                    summer
+                    can eat more grain as the body temperature will rather be regulated down then up. However, hay is
+                    not
+                    hay, grain is not grain. To make sure to hit a target, feed need to be tested for different
+                    nutritional
+                    values. Muscle gain – important for younger animals and older bulls – can only be achieved with a
+                    certain level of overall protein intake (it should, during the growth stage, be above 15% but under
+                    19%
+                    - everything above 19% will use energy to digest the protein with the result of no weight gain). A
+                    baseline for the feed calculations will be formed by experience (our team member Angelo has
+                    collected
+                    and experimented with data in regard to cattle feeding on a cattle stud farm) and intensive research
+                    and
+                    integration of data by other institutions.
+                </p>
+                <p>
+                    As we have seen, the nutritional demand for cattle is dependent on many different factors. So how
+                    would
+                    we be able to provide a farmer with a general formula to feed their cattle? For now, we will not be
+                    able
+                    to achieve that. Having said that, we are aiming to use AI with collects data from all clients to
+                    suggest the best starting point for everyone. This means that with a growing database of clients,
+                    the
+                    suggestions, which will consider similar circumstances of farmer A & B, will improve in giving the
+                    best
+                    result straight away. In every other case, the AI will concentrate on one client: if the gained
+                    weight
+                    is higher or lower than the target weight, it will adjust the quantities of feed automatically.
+                </p>
+                <p>
+                    Artificial Intelligence, which can be prototyped with devices like Google’s Coral or NVIDIA’s
+                    Jetson, is
+                    only one aspect of the project. Having said that, this is actually only going to happen in the
+                    background. What about the user interaction, though? How can we let the farmer interact with our
+                    software? Technologies required to provide a good platform for user input and software output are
+                    programming (front- and backend technologies like HTML, CSS, JavaScript, Python & database
+                    technologies
+                    as well as Swift and Java for mobile applications) and hardware integration (user interfaces could
+                    be
+                    realized with Raspberry PIs; processing of sensor and actuator information could be done by
+                    Arduinos).
+                    With these tools and our development, the farmer will not only be able to access the software via
+                    browser or smartphone but a satellite unit, which could be in the shed, could provide the most
+                    recent
+                    feed plan and tell how much product needs to be fed to which mob.
+                </p>
+                <p>
+                    Hardware & technology won’t make the project happen on its own. Skills required, but not limited to
+                    it,
+                    are:
+                </p>
+                <ul>
+                    <li>
+                        Basic knowledge about nutritional demands for cattle
+                    </li>
+                    <li>
+                        Communication
+                    </li>
+                    <li>
+                        Problem Solving
+                    </li>
+                    <li>
+                        Teamwork / Collaboration
+                    </li>
+                    <li>
+                        Analytical & logical mind
+                    </li>
+                    <li>
+                        Detail-Orientated
+                    </li>
+                    <li>
+                        Research
+                    </li>
+                    <li>
+                        Programming in front- and backend technologies (given above)
+                    </li>
+                    <li>
+                        App developing
+                    </li>
+                    <li>
+                        Graphic Design
+                    </li>
+                </ul>
+                <h5>
+                    Conclusion
+                </h5>
+                <p>
+                    Information technology with its hard- and software tools and a broad knowledge of how to use them,
+                    as
+                    well as a deep insight and thorough research on animal feeding can help primary producers to firstly
+                    keep a core of their animals, even in difficult situations, alive and in fair condition to get back
+                    on
+                    track after the situation has changed and secondly, can help farmers in normal circumstances to
+                    improve
+                    the production and of livestock and efficiency therefore improve profit and reduce the strain on the
+                    environment. AGIT’s goal is to provide a tool to the farmers to realize all of these points.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
