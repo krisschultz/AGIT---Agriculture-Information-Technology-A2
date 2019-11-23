@@ -229,7 +229,101 @@
                               </h3>
                               <!-- TODO: Add Plans and Progress (Tim)-->
                               <p>
-                                To be added...
+                                  The AGIT Cattle Feeder will be a cloud based, hardware supported tool for beef producers to calculate, monitor and adjust feed quantities accordingly to the desired and set weight gains for cattle at the lowest possible cost, while still considering the health requirements of the animals. The system will not only take into consideration the quality and nutritional values of the fodder, but it will also adjust recommendations for different categories of animals i.e. bulls, pregnant or lactating cows, calves and animals at a certain growth stages, as all their nutritional demands vary greatly. It will give information about supplements needed to keep the animals healthy and give advice on good practices for generally healthy herds. The browser- and mobile app-based software will furthermore keep records of data for the farmer from the history and combine that data with data from all users of the software to adjust future suggestions for all clients. The backend of the software is going to have an AI-instance to combine collected data and elaborate the best possible feed formula to achieve the targets given by the client.
+                              </p>
+                              <p>
+                                  There are endless possible scenarios in the real world as how to achieve certain goals and these scenarios are not only governed by the type of animal and the fodder it is eating. Environmental influences like the air- and soil temperature, quality of water and the amount of rain as well as trace elements in the soil are affecting the performance substantially. To be able to give most accurate feeding plans and to improve our general accuracy, the farmer will optionally be able to integrate hardware to the system, which then feeds information into our database and to the AI. Hardware extensions could include, but are not limited to, weather stations and soil measurement tools, or - just for the convenience, accuracy, and as a time-saver – automatic feed scales which will show the fodder types and quantities needed for a certain mob on the display and confirm automatically to the cloud that this mob received their ration on that day.
+                              </p>
+                              <p>
+                                  The main target of the project is to provide a tool to farmers in extreme environmental conditions like droughts, floods or in fire-affected areas to keep their performance up - at reasonable cost. However, the tool can also be used under normal circumstances to reduce cost and increase productivity and profitability.
+                              </p>
+                              <p>
+                                  The project idea arose when one of our team members, who had had very little experience in farming, was faced with severe drought conditions in New South Wales while he managed a cattle stud with 80 head. Research and calculations for feed quantities and qualities were vital to keep the loss at a minimum while still performing reasonably well. After talking to many close neighbours, and then farmers from all over Australia, it turned out that many of them weren’t calculating the required quantities (also completely without knowledge about the nutritional value of their fodder) but instead they were just feeding “as they went”. These farmers would monitor the conditions of the animals and increase or decrease amounts of feed as they over- or underperformed. Some breeds, however, can lose quite a bit of weight without obvious visual signs. To regain 50kg or 100kg of weight, much more feed is needed than to maintain the current weight, which ends up to be very expensive for the farmer. Another incentive to create a product like ours was to centralise information, make them recallable, trackable and conveniently accessible. There are, of course, lots of information available, even websites which do a similar job. But these websites are mostly not very detailed, and the entered data is also not being saved and therefore not recallable. Our team member also had to spend a lot of time to go through all this information and to create his own little central library to keep information handy at any time.
+                              </p>
+                              <p>
+                                  The initial aim of the project was, besides the feed calculator, the integration of other tools for completely different areas of agriculture which could include for instance fertilizer-calculators and hardware controller for outdated equipment. One hardware example for that could be a controller and monitor for old seeders: the seed- and fertilizer compartments are often not equipped with any monitoring tools, sometimes not even with a window on the side to see how much product is still left. As a result, the operator of the machine physically has to check the level of the product every so often. Furthermore, as these compartments are often not subdivided, the seed and fertiliser might shift to one side of the compartment (if one sows at an angle, for instance). Some optical sensors and easily installed physical dividers, in combination with a little display, can provide real time information to the farmer about the levels of his products in the seeder. To get the project started, however, we decided to drop these areas for now.
+                              </p>
+                              <p>
+                                  Research and a good team effort has brought us to a point at which we were able to determine a good set of tools required to plan the prototyping of our project. We have got a clear idea of what we want to achieve and what resources are necessary.
+                              </p>
+                              <p>
+                                  Although there is still a lot of work to do and we have not decided on any specific designs and UIs, a wireframe for the online app can be found <a href="https://xd.adobe.com/view/3a3b12fc-c30b-4aa8-7af9-50d9e7e0ec69-4c0a/" title="Click to open link" target="_blank">here</a>.
+                              </p>
+                              <a href="https://xd.adobe.com/view/3a3b12fc-c30b-4aa8-7af9-50d9e7e0ec69-4c0a/" title="Click to open new tab" target="_blank"><img src="img/ppr_wireframe.png" alt="Plans and Progress, Wireframe" width="100%"></a>
+                              <p>
+                                  To achieve our target to provide usable and accurate weight gain forecasts, we will need to investigate the following areas:
+                              </p>
+                              <ol>
+                                  <li>
+                                      <strong>Knowledge</strong>
+                                      <ul>
+                                          <li>
+                                              Agriculture is the one of the most important factors. We need to be able to understand first how to evaluate and assess different types of feed as well as pastures and their nutritional composition to put us in a position to provide accurate information to our customers.
+                                          </li>
+                                          <li>
+                                              A very good understanding of cattle is as important. The nutritional demands vary for different classes of cattle and are influenced by the weather, the status (lactating, pregnant, mating etc) as well of growth stages of the animals.
+                                          </li>
+                                          <li>
+                                              Mathematics, physics, chemistry and biology - these subjects are vital for a broad part of the project: feed calculations, the development of hardware, the ability to give advice how to improve cattle health and how to improve soils and pastures.
+                                          </li>
+                                          <li>
+                                              Basic knowledge in meteorology to take predicted weather changes into account for our calculations.
+                                          </li>
+                                        These are the essential to cover the basics of the project. Some of the knowledge exists in our team already, other parts need to be investigated.
+                                      </ul>
+                                  </li>
+                                  <li>
+                                      <strong>Software development</strong>
+                                      <p>
+                                          The foundation of the project is a cloud-based backend; therefore, backend technologies are most important for us. Suitable technologies could include Python, Ruby, Java, JavaScript as well as a database system.
+                                      </p>
+                                      <p>
+                                          The user interface, however, is as important to make the project as attractive and user friendly as possible. To realise a good frontend, HTML, CSS, and JavaScript are compulsory. Other script libraries like jQuery will be used, too.
+                                      </p>
+                                      <p>
+                                          To cover the mobile side of the project, applications for Android and iOS need to be developed and securely connected to our backend. Java & Swift are the two languages needed for that.
+                                      </p>
+                                  </li>
+                                  <li>
+                                      <strong>Artificial Intelligence, Machine Learning</strong>
+                                      <p>
+                                          Even though this is also a part of the software development and some parts of the general knowledge play into this field, AI / ML requires a point on its own.
+                                      </p>
+                                      <p>
+                                          A thorough understanding is absolutely critical to ensure accurate forecasts created by our software. Our plan is to create an algorithm which at first learns supervised: we will feed the data, label it and tell the computer how to use that data. As soon as the machine is able to use that data and predicts reasonable feeding forecasts, we will switch over to reinforcement learning. When the user then asks for a specific weight gain, the machine will give some feeding recommendations. As the user inputs new weights after some time, the machine will take that data and compare it with the target given before. If these two values deviate, the Machine Learning instance will learn and adjust the recommendations in the future accordingly.
+                                      </p>
+                                      <p>
+                                          We believe that it makes sense to use services from companies like Amazon (for instance Amazon’s <a href="https://aws.amazon.com/machine-learning/" title="Click to open link" target="_blank">SageMaker</a>) to create and deploy our ML models in the most convenient way, even in the development phase although were considering to use single board computers like the NVIDIA Jetson Nano for the prototyping.
+                                      </p>
+                                  </li>
+                                  <li>
+                                      <strong>Hardware development</strong>
+                                      <p>
+                                          To provide a convenient, all-in-one solution and to get the most out of our system, the hardware development of cattle- and feed scales, for instance, is very important to us. These components can potentially be developed with a good understanding of physics in combination with the software development.
+                                      </p>
+                                      <p>
+                                          For the prototyping of the hardware components, Raspberry PIs will be used. They will be equipped with small touch displays to read, enter or confirm data.
+                                      </p>
+                                  </li>
+                              </ol>
+                              <p>
+                                  All of these are from equal importance to realise our project. The following schematics show how the system will operate:
+                              </p>
+                              <img src="img/ppr_schematics.png" alt="Plans and Progress, Schematics" width="100%">
+                              <p>
+                                  Although we know now what is required to realise the project, we would still like to describe how the system will work in detail and how it benefits our customers.
+                              </p>
+                              <p>
+                                  The first step to make the system work is to develop the soft- and hardware. A good foundation will be fed into our AI and the algorithm will be developed, too. As soon as the development & test phases are over, the customer will be able to buy our product.
+                              </p>
+                              <p>
+                                  The user then enters his cattle and their actual weights. He should also add nutritional values of the fodder he uses. If he does not enter that data, we will use average values. The most convenient way for the initial setup will be in the browser. All of that data will be stored in the cloud and the cloud will be connected to our AI. Now it is the time to create a feeding plan: the user selects the class of animal, age, available fodder, some weather information and a target weight. All of that information will be passed through to the AI which then calculates and returns a feeding formula which considers the cost of the fodder (entered by the farmer) and the nutritional values. The farmer feeds accordingly for some time, weighs the cattle again and enters the new weights into the system. If the actuals and targets deviate, the AI will learn (reinforcement learning as the user inputs new data) and adjust accordingly for the next calculation.
+                              </p>
+                              <p>
+                                  Automatic In- and Output systems will eradicate the need of paper and manual input of information: The created feed plan will automatically be sent via network to the feed scale and, at the time of the feeding, show the farmer automatically what fodder needs to go where. The farmer can confirm the quantities fed to the animals and that data will be returned to the cloud again. The cattle scale works in a similar way: as the farmer weighs the animal, the scale will show the last weight, the expected new weight and, after the actual measurement, save the new weight in the cloud automatically. As soon as the new weight is taken, it will also show the deviation of the set- and actual gain and automatically adjust the calculations and recommendations given before. The adjusted recommendation will then be sent to the feed scale and for the next feeding be ready on the screen of the scale.
+                              </p>
+                              <p>
+                                  The results are less paperwork, less work in front of the computer, precise feeding, less feed wastage and therefore more profit while reducing unnecessary time in front of the computer.
                               </p>
                             </div>
                         </div>
